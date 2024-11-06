@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+i,
+form,
+label,
+strong,
+header,
+nav,
+menu,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+/* navigation part start */
+nav,
+.navbar {
+    background-color: #e5e5e5;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.nav_logo a {
+    font-size: 40px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #64c5af;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #64c5af;
+}
+
+/* navigation part end */
+
+
+
+
+
+/* banner part start */
+#banner {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 65px;
+}
+
+.banner_content {
+    text-align: center;
+    color: #dee1e4;
+    padding: 150px 0;
+}
+
+.banner_content h3 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 55px;
+}
+
+.banner_content h4 {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    color: #a8a8a8;
+    padding-bottom: 50px;
+}
+
+.banner_content a {
+    font-family: 'Roboto Condensed', serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    transition: all linear .3s;
+    background-color: #3f8dbf;
+    box-shadow: 0px 5px 5px #3f8dbf;
+}
+
+/* banner part end */
+
+
+
+
+
+/* Option part start (banner ar nicher ongso option part) */
+.option_main {
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.option_icon {
+    width: 80px;
+    height: 80px;
+    background-color: #9d9abf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.option_icon2 {
+    background-color: #d2514b;
+}
+
+.option_icon3 {
+    background-color: #66a3c6;
+}
+
+.option_icon4 {
+    background-color: #e8c04f;
+}
+
+.option_title {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.option_title h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.option_title p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+hr {
+    border: 1px solid;
+}
+
+/* Option part end (banner ar nicher ongso option part) */
+
+
+
+
+
+/* our latest works part start */
+#our_latest_works {
+    margin-bottom: 60px;
+}
+
+.our_latest_work_heading {
+    margin-top: 60px;
+    margin-bottom: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #4e4e4e;
+}
+
+.our_latest_works_main{
+    margin-bottom: 1rem;
+}
+
+.our_latest_work_title h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.our_latest_work_title h6 {
+    font-family: 'Roboto', serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #a8a8a8;
+}
+
+.our_latest_work_title p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #4e4e4e;
+}
+
+/* our latest works part end */
+
+
+
+
+
+/* Comment & icon part start (footer part ar ager ongso) */
+#last1st_part {
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+.last_part_icon {
+    color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.last_part_comment {
+    color: #a1a1a1;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Comment & icon part end (footer part ar ager ongso) */
+
+
+
+
+
+/* footer part start */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer_first_p {
+    margin-bottom: 20px;
+}
+
+.menu {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.menu_content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.menu_content p{
+    margin-bottom: 20px;
+}
+
+.menu_icon ul {
+    margin-top: 5px;
+}
+
+.menu_icon ul li {
+    width: 42px;
+    height: 42px;
+    margin-top: 2px;
+    color: #a89574;
+}
+
+.menu_icon ul .twitter2 {
+    margin-bottom: 3rem;
+}
+
+/* responsive twitter icon part start */
+@media (min-width: 320px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 3rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 1rem;
+    }
+ }
+
+ @media (min-width: 375px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 3rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 1.2rem;
+    }
+ }
+
+ @media (min-width: 425px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 1.5rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 1.2rem;
+    }
+ }
+
+@media (min-width: 576px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 1.2rem;
+    }
+
+ }
+
+ @media (min-width: 768px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 10.2rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 6rem;
+    }
+
+    .menu_list ul .twitter {
+        margin-left: 1rem;
+    }
+
+    .menu_icon ul li{
+        margin-bottom: 14px;
+    }
+
+ }
+
+ @media (min-width: 992px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 6rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 2.5rem;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+    
+    .menu_icon ul .twitter {
+        margin-bottom: 4.4rem;
+    }
+
+    .menu_icon ul .twitter2 {
+        margin-bottom: 1.2rem;
+    }
+
+    .menu_icon ul li{
+        margin-bottom: 2px;
+    }
+ }
+/* responsive twitter icon part end */
+
+.menu_list ul .twitter {
+    margin-bottom: 1rem;
+}
+
+.menu_list ul li{
+    margin-bottom: 8px;
+}
+
+.menu_list ul li a {
+    color: white;
+}
+
+.menu_list ul li a:hover {
+    text-decoration: underline;
+}
+/* footer part end */
+
+
+
+
+
+/* last part copyright claim part start */
+#last_part_main{
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 40px 0;
+}
+
+.last_part{
+    padding: 20px 0;
+}
+/* last part copyright claim part end */
